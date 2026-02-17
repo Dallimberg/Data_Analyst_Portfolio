@@ -44,13 +44,11 @@ The analysis was done using **Google Sheets Pivot Tables and charts** to summari
 ## Files
 - `spotify_data.xlsx` – Dataset exported from Google Sheets  
 - `charts_screenshots.png` – Screenshots of main Pivot Tables and charts  
-- Optional: Google Sheets link for interactive view  
 
-## Screenshots
-*(Insert images of your Pivot Tables and charts here)*  
+
 
 ## What I Learned
-- Creating complex Pivot Tables in Google Sheets to summarize multi-dimensional data.  
+- Creating  Pivot Tables in Google Sheets to summarize data.  
 - Visualizing trends and patterns effectively using charts.  
 - Extracting actionable insights from raw streaming data.  
 - Documenting limitations when sharing projects across different tools (Google Sheets vs Excel).  
