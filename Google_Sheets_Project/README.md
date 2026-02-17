@@ -42,8 +42,8 @@ The analysis was done using **Google Sheets Pivot Tables and charts** to summari
 - **Popularity scores** reveal Afrobeats and Indie were highly popular in 2023, while Rock gained popularity in 2024.  
 
 ## Files
-- `spotify_data.xlsx` – Dataset exported from Google Sheets  
-- `charts_screenshots.png` – Screenshots of main Pivot Tables and charts  
+- spotify_data.xlsx – Dataset exported from Google Sheets  
+- charts_screenshots.png – Screenshots of main Pivot Tables and charts  
 
 
 
