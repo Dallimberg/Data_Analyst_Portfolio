@@ -1,16 +1,16 @@
 ## Data Cleaning & Preparation
-1. Loaded the CSV using Pandas and checked the first rows (`df.head()`), data types (`df.dtypes`) and summary statistics (`df.describe()`).
+1. Loaded the CSV using Pandas and checked the first rows , data types and summary statistics.
 2. Checked for **missing values** and **duplicated rows**.
-3. Converted `Order Date` column to **datetime format** to allow time-based analysis.
+3. Converted Order_Date column to **datetime format** to allow time-based analysis.
 4. Created new columns for analysis:
-   - `Order_Year` → to group sales by year
+   - Order_Year → to group sales by year
 
 ---
 
 ## Analysis & Insights
 
 ### 1. Sales by Year
-- Calculated total sales per year using `groupby`.
+- Calculated total sales per year using 'groupby'.
 - **Insight:** 2017 had the highest total sales.
 - Visualization: Bar chart showing sales trend over the years.
 
