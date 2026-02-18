@@ -14,7 +14,7 @@ The analysis was done using **Google Sheets Pivot Tables and charts** to summari
 - Compare explicit vs non-explicit songs  
 - Evaluate average popularity scores across genres
 
-## Solution / Approach
+## Solution 
 The analysis was performed using Google Sheets. Pivot Tables were created to summarize:
 - Total streams by genre
 - Streams by genre and release year
