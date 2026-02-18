@@ -17,19 +17,23 @@ I'm currently building my portfolio with projects using SQL, Python, Power BI, a
 
 ## Projects Overview
 
+
+### Sample Superstore Analysis – SQL
+Analyzed the Sample Superstore dataset using SQL to uncover business insights.
+
+SQL code for this project can be found in Sql_Project/Superstore_Analysis.sql.
+
+---
+
 ### Video Game Sales Analysis (SQL)
-Analyzed the global video game sales dataset (`vgsales.csv`) to understand:
-- Sales trends by year, genre, and platform
-- Total and average sales per game
-- Regional market share
-- Top-selling games per year
+Analyzed the global video game sales dataset (`vgsales.csv`) 
 
 SQL code for this project can be found in `Sql_Project/vgsales_analysis.sql`.
 
 ---
 
 ###  Python Superstore Analysis
-Analyzed sales data using Python to uncover key business insights and trends.  
+Analyzed the **same Sample Superstore dataset** used in SQL to uncover complementary insights.
 Tools used: Python (Pandas, Matplotlib), EDA and visualization.
 
 ---
