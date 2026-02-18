@@ -1,199 +1,49 @@
-Sample Superstore Analysis
-
-This project was created as part of my learning journey in SQL and data analysis.
-
-
-
-\## Project Overview
-
-\## Objectives
-
-
-
-* Check data quality and completeness
-
-
-
-* Identify top-performing categories, segments, and products
-
-
-
-* Detect loss-making products
-
-
-
-* Provide insights to support business decisions
-
-
-
-Tools: MySQL
-
-
-
-\## Dataset Overview
-
-
-
-The dataset contains information about orders, customers, products, and shipping.
-
-
-
-Column Name	Data Type
-
-Order ID	VARCHAR
-
-Order Date	DATE
-
-Ship Date	DATE
-
-Ship Mode	VARCHAR
-
-Customer ID	VARCHAR
-
-Customer Name	VARCHAR
-
-Segment	VARCHAR
-
-Country	VARCHAR
-
-City	VARCHAR
-
-State	VARCHAR
-
-Region	VARCHAR
-
-Product ID	VARCHAR
-
-Category	VARCHAR
-
-Sub-Category	VARCHAR
-
-Product Name	VARCHAR
-
-Sales	DECIMAL
-
-Quantity	INT
-
-Discount	DECIMAL
-
-Profit	DECIMAL
-
-
-
-Total number of rows:
-
-
-
-
-
-\## Data Quality
-
-
-
-Checked text columns for NULLs, empty values, and extra spaces:
-
-
-
-Column Name	Missing / Empty Values
-
-Order ID	
-
-Ship Mode
-
-Customer ID
-
-Segment
-
-Country	
-
-City	
-
-State	
-
-Region	
-
-Product ID	
-
-Category	
-
-Sub-Category
-
-Product Name	
-
-
-
-Note: TRIM applied only to text columns.
-
-
-
-\## Business Insights
-
-
-
-\- \*\*Top Categories by Sales \& Orders\*\*  
-
-&nbsp; Observation: Technology has the highest sales, while Office Supplies has the most orders.
-
-
-
-\- \*\*Most Profitable Segments\*\*  
-
-&nbsp; Observation: The Consumer segment generates the highest profit.
-
-
-
-\- \*\*Regions with Highest Sales\*\*  
-
-&nbsp; Observation: The West region leads in sales.
-
-
-
-\- \*\*Products Sold Over 100 Units\*\*  
-
-&nbsp; Observation: High-selling products are not always the most profitable.
-
-
-
-\- \*\*Products with Highest Sales and Profit\*\*  
-
-&nbsp; Observation: Top-selling products are also highly profitable.
-
-
-
-\- \*\*Products with Negative Profit\*\*  
-
-&nbsp; Observation: Identifying loss-making products can help improve margins.
-
-
-
-
-
-\## Key Takeaways
-
-
-
-Data quality is good; minor missing values exist in text columns.
-
-
-
-Technology category and Consumer segment drive most profit and sales.
-
-
-
-Regional and product insights can guide stock and marketing strategies.
-
-
-
-Loss-making products should be reviewed for pricing or inventory adjustments.
-
-
-
-
-
-
-
-
-
+## Sample Superstore Analysis – SQL
+
+## Project Context
+This project was created as part of my learning journey in SQL and data analysis. 
+It analyzes retail orders, customers, products, and shipping information to provide actionable business insights, identify high-performing categories and products, and detect potential issues like loss-making products.
+
+## Objective
+- Check data quality and completeness
+- Identify top-performing categories, segments, and products
+- Detect loss-making products
+- Provide insights to support business decisions
+
+## Solution / Approach
+- Analyzed the Sample Superstore dataset using MySQL
+- Checked data quality:
+  - Counted missing or empty values in text columns
+  - Applied TRIM to clean extra spaces
+- Conducted business analysis:
+  - Identified top categories by sales and number of orders
+  - Analyzed most profitable customer segments
+  - Examined regions with highest sales
+  - Evaluated products sold over 100 units
+  - Detected products with highest sales and profit
+  - Identified products with negative profit
+
+## Key Insights
+- Technology has the highest sales, while Office Supplies has the most orders
+- The Consumer segment generates the highest profit
+- The West region leads in total sales
+- High-selling products are not always the most profitable
+- Top-selling products are often highly profitable
+- Loss-making products need review for pricing or inventory adjustments
+
+## Tools & Technologies
+- MySQL
+
+## Dataset
+- Contains order, customer, product, and shipping data
+- Columns include:
+  - Order ID, Order Date, Ship Date, Ship Mode, Customer ID, Customer Name, Segment, Country, City, State, Region, Product ID, Category, Sub-Category, Product Name, Sales, Quantity, Discount, Profit
+
+## What I Learned
+- Assessing and cleaning data to ensure accuracy
+- Summarizing sales, profit, and orders by category, segment, and region
+- Using SQL to detect top-performing and loss-making products
+- Drawing actionable insights to guide business decisions and strategies
 \## SQL Queries Used
 
 Below are the SQL queries used to perform the analysis
