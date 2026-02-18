@@ -1,5 +1,9 @@
 # Spotify Streams Analysis – Google Sheets
 
+## Project Context
+This project analyzes Spotify streaming data to understand music consumption trends over 2023 and 2024.
+The goal is to help music analysts, record labels, and content creators identify top-performing genres, understand listener preferences, and evaluate song popularity.
+
 ## Overview
 This project analyzes Spotify streaming data to identify trends, top genres, and the popularity of songs over 2023 and 2024.  
 The analysis was done using **Google Sheets Pivot Tables and charts** to summarize and visualize insights.
@@ -9,6 +13,13 @@ The analysis was done using **Google Sheets Pivot Tables and charts** to summari
 - Analyze trends over release years  
 - Compare explicit vs non-explicit songs  
 - Evaluate average popularity scores across genres
+
+## Solution / Approach
+The analysis was performed using Google Sheets. Pivot Tables were created to summarize:
+- Total streams by genre
+- Streams by genre and release year
+- Streams by genre and explicit content
+- Average popularity score by genre and year
 
 ## Tools
 - **Google Sheets** (Pivot Tables, charts, visualization)  
