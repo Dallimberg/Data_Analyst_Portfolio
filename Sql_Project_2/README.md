@@ -1,62 +1,49 @@
-# Video Game Sales Analysis
+## Video Game Sales Analysis – SQL
 
-## Project Description
-This project analyzes video game sales data using SQL.  
-It provides insights into global and regional sales, trends by genre and platform, average sales per game, and identifies the top-selling games per year.  
+## Project Context
+This project analyzes video game sales data to understand trends in global and regional sales, as well as performance by genre and platform.
+The goal is to provide actionable insights for game publishers, marketers, and analysts to identify top-selling games and profitable genres over the years.
 
----
+## Objective
+- Inspect the dataset structure and check for missing values
+- Detect duplicate game entries
+- Calculate total and average sales per game
+- Analyze sales trends by genre, year, and platform
+- Determine top-selling games per year
+- Calculate market share for each region
 
-## Dataset
-**Dataset:** `vgsales.csv`  
-
-**Columns:**
-- **Name**: Name of the video game  
-- **Platform**: Gaming platform (e.g., PS4, Xbox, Nintendo Switch)  
-- **Year**: Year of release  
-- **Genre**: Game genre (e.g., Action, Adventure, Sports)  
-- **Publisher**: Game publisher  
-- **NA_Sales**: Sales in North America (millions)  
-- **EU_Sales**: Sales in Europe (millions)  
-- **JP_Sales**: Sales in Japan (millions)  
-- **Other_Sales**: Sales in other regions (millions)  
-- **Global_Sales**: Total sales worldwide (millions)  
-
----
-
-## Project Objectives
-- Inspect dataset structure and check for missing values  
-- Detect duplicates in game entries  
-- Calculate total and average sales per game  
-- Analyze sales trends by genre, year, and platform  
-- Determine top-selling games per year  
-- Calculate market share for each region  
-
----
-
-## SQL Queries Overview
-1. **First rows** – Inspect dataset structure and data types  
-2. **Data quality check** – Count total rows and null values per column  
-3. **Duplicate detection** – Identify repeated games by Name and Platform  
-4. **TotalSales column** – Sum regional sales for global analysis  
-5. **Sales by year and genre** – Identify trends over time  
-6. **Sales by platform and region** – Compare performance of consoles and markets  
-7. **Regional market share** – Determine percentage contribution of each region  
-8. **Average sales per game** – Identify profitable genres  
-9. **Top-selling games per year** – Find the best-selling game of each year  
-
----
+## Solution
+The analysis was performed using SQL (MySQL) and included the following steps:
+1. Inspected the first rows of the dataset to check structure and data types
+2. Counted total rows and null values per column to check data quality
+3. Identified duplicate games by Name and Platform
+4. Added a new column TotalSales by summing regional sales (NA, EU, JP, Other)
+5. Calculated total sales and number of games by Year and Genre
+6. Aggregated sales by Platform and Region to compare performance across markets
+7. Calculated regional contribution percentages to Global Sales
+8. Computed average sales per game by Year and Genre
+9. Identified the top-selling game of each year using a ranking function
 
 ## Key Insights
-- Action and Sports games dominate global sales in multiple years  
-- Certain platforms consistently outperform others (e.g., PS4, Nintendo Switch)  
-- North America and Europe account for the largest share of global sales  
-- Top-selling games per year often belong to popular franchises  
+- Action and Sports games dominate global sales in multiple years
+- Certain platforms consistently outperform others (e.g., PS4, Nintendo Switch)
+- North America and Europe account for the largest share of global sales
+- Top-selling games per year often belong to popular franchises
 
----
+## Dataset
+- Name: Name of the video game
+- Platform: Gaming platform (e.g., PS4, Xbox, Nintendo Switch)
+- Year: Year of release
+- Genre: Game genre (e.g., Action, Adventure, Sports)
+- Publisher: Game publisher
+- NA_Sales: Sales in North America (millions)
+- EU_Sales: Sales in Europe (millions)
+- JP_Sales: Sales in Japan (millions)
+- Other_Sales: Sales in other regions (millions)
+- Global_Sales: Total sales worldwide (millions)
 
 ## Tools & Technologies
-- **SQL (MySQL)** – For data querying and analysis  
-
+- SQL (MySQL) for querying, analysis, and insights extraction
 
 
 
